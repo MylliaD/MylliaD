@@ -1,16 +1,16 @@
 ## Hi there 👋
 
-<!--
-**MylliaD/MylliaD** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Backend Developer | Python & SQL Enthusiast 🚀
 
-Here are some ideas to get you started:
+Estudiante de desarrollo de software y practicante de backend. Enfocado en la construcción de sistemas eficientes y escalables,
+integrando la potencia de Python con el manejo dinámico de TypeScript y la gestión de datos en SQL.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔭 Proyectos actuales: Desarrollando Jarvis (asistente CLI) y optimizando arquitecturas backend.
+
+🛠️ Stack Tecnológico: .NET Core, SQL Server, JavaScript, TypeScript y Python.
+
+🤖 Intereses: IA, Computer Vision (YOLO/OCR) y automatización.
+
+🌱 Certificado: por IBM en Inteligencia Artificial Microsoft Learn En C#.
+
+"El creador que odia su creación" — Buscando siempre la perfección en cada línea de código.
