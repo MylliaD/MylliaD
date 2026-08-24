@@ -1,0 +1,70 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MylliaD/MylliaD/blob/main/IPC\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ipc_tasa = 0.0510  # 5.10%\n",
+        "\n",
+        "datos = {\n",
+        "    \"Area Comun\": 5_000_000_000,\n",
+        "    \"ELec\": 10_000_000,\n",
+        "    \"Maqui\": 10_000_000,\n",
+        "    \"Mu\": 15_000_000\n",
+        "}\n",
+        "\n",
+        "print(f\"{'País':<6} | {'Base':<16} | {'IPC (5.10%)':<16} | {'Total':<16}\")\n",
+        "print(\"-\" * 60)\n",
+        "\n",
+        "for pais, base in datos.items():\n",
+        "    ipc_valor = base * ipc_tasa\n",
+        "    total = base + ipc_valor\n",
+        "    print(f\"{pais:<6} | {base:>16,.2f} | {ipc_valor:>16,.2f} | {total:>16,.2f}\")\n"
+      ],
+      "metadata": {
+        "id": "ckA3VSAGAs_v",
+        "outputId": "d77f4463-03e5-4177-de15-e257999d4fb1",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "País   | Base             | IPC (5.10%)      | Total           \n",
+            "------------------------------------------------------------\n",
+            "Area Comun | 5,000,000,000.00 |   255,000,000.00 | 5,255,000,000.00\n",
+            "ELec   |    10,000,000.00 |       510,000.00 |    10,510,000.00\n",
+            "Maqui  |    10,000,000.00 |       510,000.00 |    10,510,000.00\n",
+            "Mu     |    15,000,000.00 |       765,000.00 |    15,765,000.00\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Get_started_managed_agents.ipynb",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
